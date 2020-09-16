@@ -31,7 +31,7 @@ router.get("/",function(req,res){
 })
 
 router.get('/booking',function(req,res){
-//  let findData = room.find((s)=> s.bookedStatus == 'booked');
+
  let op=[];
  room.forEach(e=>{
     let FindData= customers.find((s) => s.roomId == s.id);
